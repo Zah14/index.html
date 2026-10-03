@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zahra — UX/UI & Graphic Designer</title>
+<style>
+:root{--bg:#f6f4ef;--ink:#171717;--muted:#77746d;--card:#fffdf8;--line:#dfdcd3}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Tahoma,sans-serif;line-height:1.65}a{text-decoration:none;color:inherit}
+.nav{position:sticky;top:0;z-index:20;background:#f6f4efd9;backdrop-filter:blur(14px);border-bottom:1px solid #dfdcd388}.navin{max-width:1180px;margin:auto;padding:16px 24px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:20px;font-weight:800}.brand small{font-size:11px;color:var(--muted);font-weight:400;margin-right:7px}.links{display:flex;gap:28px;font-size:14px}.links a:hover{text-decoration:underline}.navbtn,.btn{background:#171717;color:white;border-radius:30px;padding:11px 21px;border:1px solid #171717;display:inline-block;font-weight:700}.btn.alt{background:transparent;color:#171717}
+.hero{max-width:1180px;margin:auto;padding:100px 24px 80px;min-height:650px;display:grid;grid-template-columns:1.05fr .95fr;gap:65px;align-items:center}.eyebrow{font-size:12px;color:var(--muted);letter-spacing:.5px}.hero h1{font-size:clamp(48px,7vw,86px);line-height:1.02;letter-spacing:-4px;margin:18px 0}.hero h1 em{font-style:normal;color:#89857c}.hero p{font-size:18px;color:var(--muted);max-width:580px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.visual{height:465px;border-radius:34px;background:#d9d4c8;position:relative;overflow:hidden}.visual:before{content:"DESIGN";position:absolute;left:-30px;bottom:0;font-size:105px;font-weight:900;color:#eeeae0;transform:rotate(-90deg);transform-origin:left bottom}.poster{position:absolute;width:67%;height:74%;right:14%;top:13%;background:#171717;color:#fff;padding:30px;box-shadow:25px 25px 50px #7775}.poster small{color:#aaa}.poster h2{font-size:52px;line-height:.9;margin:80px 0 20px;letter-spacing:-4px}.circle{width:68px;height:68px;border-radius:50%;background:#d9c6a5;position:absolute;left:28px;bottom:28px}
+.stats{max-width:1100px;margin:auto;padding:0 24px 75px;display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line)}.stat{text-align:center;padding:24px 10px;border-left:1px solid var(--line)}.stat:last-child{border:0}.stat b{font-size:24px}.stat span{display:block;color:var(--muted);font-size:13px}
+section{max-width:1180px;margin:auto;padding:85px 24px}.head{display:flex;justify-content:space-between;align-items:end;margin-bottom:32px}.head h2{font-size:44px;letter-spacing:-2px;margin:0}.head p{color:var(--muted);max-width:430px;margin:0}.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}.filter{border:1px solid var(--line);background:transparent;border-radius:25px;padding:8px 16px;cursor:pointer}.filter.active,.filter:hover{background:#171717;color:#fff}
+.projects{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.project{background:var(--card);border:1px solid var(--line);border-radius:24px;overflow:hidden;transition:.25s}.project:hover{transform:translateY(-5px);box-shadow:0 18px 45px #0000000d}.cover{height:350px;padding:24px;display:flex;align-items:flex-end;position:relative}.one{background:#d7d1c5}.two{background:#c9d1c5}.three{background:#d5c8b7}.four{background:#cbc9d1}.cover>span{font-size:75px;font-weight:900;color:#ffffffaa;position:absolute;top:20px;right:24px}.mini{background:#171717;color:#fff;padding:17px;border-radius:3px;width:75%;font-size:13px}.mini strong{display:block;font-size:24px}.projectbody{padding:20px 22px}.projectbody h3{margin:0;font-size:21px}.projectbody p{color:var(--muted);font-size:13px;margin:2px 0}.tags{display:flex;gap:7px;margin-top:12px}.tag{font-size:11px;padding:4px 9px;border-radius:20px;background:#eeeae1}
+.about{background:#171717;color:#fff;max-width:none}.aboutin{max-width:1180px;margin:auto;padding:90px 24px;display:grid;grid-template-columns:.9fr 1.1fr;gap:80px}.about h2{font-size:57px;line-height:1.05;letter-spacing:-3px;margin:0}.about p{color:#bdbab2;font-size:17px}.tools{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.tool{border:1px solid #ffffff1d;padding:13px;border-radius:12px;color:#ddd}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.service{background:var(--card);border:1px solid var(--line);padding:27px;border-radius:20px}.service b{font-size:20px}.service p{color:var(--muted);font-size:14px}
+.contact{background:#e7e2d7;border-radius:30px;padding:42px}.contactgrid{display:grid;grid-template-columns:.8fr 1.2fr;gap:45px}.contact h2{font-size:46px;line-height:1.1;margin:0}.contact p{color:var(--muted)}form{display:grid;grid-template-columns:1fr 1fr;gap:13px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:12px;font-weight:700}.field input,.field select,.field textarea{border:1px solid #cbc6bb;border-radius:11px;padding:12px;background:#f8f5ee;font:inherit}.field textarea{min-height:105px}.submit{grid-column:1/-1;border:0;font:inherit;cursor:pointer}.notice{display:none;grid-column:1/-1;background:#dce9dc;color:#315b3b;border-radius:10px;padding:10px;text-align:center}
+footer{background:#171717;color:#fff;padding:28px 24px}.foot{max-width:1180px;margin:auto;display:flex;justify-content:space-between}.foot small{color:#999}
+@media(max-width:800px){.links{display:none}.hero,.aboutin,.contactgrid{grid-template-columns:1fr}.hero{padding-top:55px}.visual{height:350px}.stats{grid-template-columns:1fr 1fr}.projects,.services{grid-template-columns:1fr}.head{display:block}.head p{margin-top:10px}.contact h2{font-size:39px}}
+@media(max-width:520px){.hero,section{padding-left:16px;padding-right:16px}.hero h1{font-size:53px}.poster h2{font-size:42px}.cover{height:275px}.contact{padding:24px 17px}form{grid-template-columns:1fr}.field.full,.submit,.notice{grid-column:auto}}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="navin">
+<a class="brand" href="#home">ZAHRA <small>Designer / Creative</small></a>
+<div class="links"><a href="#work">الأعمال</a><a href="#about">عني</a><a href="#services">الخدمات</a><a href="#contact">تواصل</a></div>
+<a class="navbtn" href="#contact">ابدأ مشروعك</a>
+</div></nav>
+
+<main id="home">
+<section class="hero">
+<div><div class="eyebrow">UX/UI DESIGN · GRAPHIC DESIGN · VISUAL IDENTITY</div>
+<h1>أحوّل الأفكار<br>إلى <em>تجارب بصرية.</em></h1>
+<p>مصممة أركز على صناعة تصاميم واضحة، جميلة، وذات شخصية — من تجربة المستخدم والواجهات إلى الهوية والتصاميم البصرية.</p>
+<div class="actions"><a class="btn" href="#work">استكشف الأعمال ↓</a><a class="btn alt" href="#contact">لنتحدث عن مشروعك</a></div></div>
+<div class="visual"><div class="poster"><small>SELECTED WORK / 2026</small><h2>MAKE<br>IT<br>MEMORABLE.</h2><div class="circle"></div></div></div>
+</section>
+
+<div class="stats"><div class="stat"><b>UX/UI</b><span>تجارب وواجهات</span></div><div class="stat"><b>Branding</b><span>هويات بصرية</span></div><div class="stat"><b>Visual</b><span>تصميم بصري</span></div><div class="stat"><b>Figma</b><span>أداة التصميم الأساسية</span></div></div>
+
+<section id="work">
+<div class="head"><div><h2>أعمال مختارة</h2><p>مجموعة من المشاريع التي تجمع بين الفكرة، الوظيفة، والهوية البصرية.</p></div></div>
+<div class="filters"><button class="filter active" onclick="filterProjects('all',this)">الكل</button><button class="filter" onclick="filterProjects('ui',this)">UX/UI</button><button class="filter" onclick="filterProjects('brand',this)">Branding</button><button class="filter" onclick="filterProjects('graphic',this)">Graphic Design</button></div>
+<div class="projects">
+<article class="project" data-cat="ui"><div class="cover one"><span>01</span><div class="mini"><strong>Kalīm</strong>Speech Training Mobile App</div></div><div class="projectbody"><h3>Kalīm — تطبيق تدريب النطق</h3><p>تصميم تجربة وواجهة تطبيق جوال بطريقة بسيطة وواضحة.</p><div class="tags"><span class="tag">UX/UI</span><span class="tag">Mobile App</span><span class="tag">Flutter</span></div></div></article>
+<article class="project" data-cat="ui"><div class="cover two"><span>02</span><div class="mini"><strong>Kafa'a</strong>Educational Platform</div></div><div class="projectbody"><h3>Kafa'a — منصة تعليمية</h3><p>تصميم واجهات وتجربة مستخدم لمنصة تعليمية رقمية.</p><div class="tags"><span class="tag">UX/UI</span><span class="tag">Figma</span></div></div></article>
+<article class="project" data-cat="brand"><div class="cover three"><span>03</span><div class="mini"><strong>BRAND</strong>Visual Identity Concept</div></div><div class="projectbody"><h3>هوية بصرية — مشروع تجريبي</h3><p>نظام بصري متكامل يشمل الشعار والألوان والمطبوعات.</p><div class="tags"><span class="tag">Branding</span><span class="tag">Identity</span></div></div></article>
+<article class="project" data-cat="graphic"><div class="cover four"><span>04</span><div class="mini"><strong>VISUALS</strong>Social & Print Collection</div></div><div class="projectbody"><h3>تصاميم بصرية وإعلانية</h3><p>مجموعة من البوسترات والبنرات وتصاميم السوشيال ميديا.</p><div class="tags"><span class="tag">Graphic Design</span><span class="tag">Social Media</span></div></div></article>
+</div>
+</section>
+
+<div class="about" id="about"><div class="aboutin"><div><div class="eyebrow">ABOUT THE DESIGNER</div><h2>التصميم عندي ليس مجرد شكل.</h2></div><div><p>أهتم بأن يكون التصميم جميلًا، لكن الأهم أن يكون مفهومًا ويخدم الهدف. أعمل بين UX/UI والتصميم الجرافيكي لصناعة تجارب وهوية متماسكة من أول نظرة.</p><p>أحب التفاصيل الصغيرة، الترتيب، والمساحات البيضاء — وأؤمن أن أفضل التصميمات هي التي تجعل المستخدم يعرف ماذا يفعل دون أن يفكر كثيرًا.</p><div class="tools"><div class="tool">Figma</div><div class="tool">Canva</div><div class="tool">Framer</div><div class="tool">Visual Design</div></div></div></div></div>
+
+<section id="services"><div class="head"><div><h2>ماذا أقدم؟</h2><p>خدمات تصميم مرنة حسب احتياج المشروع.</p></div></div>
+<div class="services"><div class="service"><b>01 — UX/UI</b><p>تصميم تجربة المستخدم، Wireframes، وواجهات التطبيقات والمواقع.</p></div><div class="service"><b>02 — الهوية البصرية</b><p>شعار، ألوان، خطوط، وتطبيقات بصرية متناسقة.</p></div><div class="service"><b>03 — التصميم الجرافيكي</b><p>بوسترات، بنرات، سوشيال ميديا، مطبوعات وتصاميم إعلانية.</p></div></div></section>
+
+<section id="contact"><div class="contact"><div class="contactgrid"><div><div class="eyebrow">LET'S WORK TOGETHER</div><h2>عندك فكرة؟<br>خلّينا نصممها.</h2><p>أرسل تفاصيل مشروعك بشكل مختصر، وسأتعرف على احتياجك.</p></div>
+<form onsubmit="sendForm(event)"><div class="field"><label>الاسم *</label><input required placeholder="اسمك"></div><div class="field"><label>وسيلة التواصل *</label><input required placeholder="البريد أو رقم التواصل"></div><div class="field full"><label>نوع المشروع</label><select><option>اختر نوع المشروع</option><option>UX/UI</option><option>هوية بصرية</option><option>تصميم جرافيكي</option><option>سوشيال ميديا</option></select></div><div class="field full"><label>حدثيني عن المشروع</label><textarea placeholder="ما الذي تريدين تصميمه؟"></textarea></div><button class="btn submit" type="submit">إرسال المشروع ↗</button><div id="notice" class="notice">تم إرسال النموذج بشكل تجريبي ✦</div></form>
+</div></div></section>
+</main>
+<footer><div class="foot"><div><b>ZAHRA</b><br><small>UX/UI & Graphic Designer</small></div><small>Portfolio © 2026</small></div></footer>
+<script>
+function filterProjects(cat,btn){document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));btn.classList.add('active');document.querySelectorAll('.project').forEach(p=>p.style.display=cat==='all'||p.dataset.cat===cat?'block':'none')}
+function sendForm(e){e.preventDefault();document.getElementById('notice').style.display='block'}
+</script>
+</body>
+</html>
